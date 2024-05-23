@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  background-color: #e7eff6;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.appName {
+  margin: 0 0 10px 0;
+}
+
+.dailyWeatherBlock {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #adcbe3;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.dailyWeatherBlock>div {
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin: 20px 30px;
+}

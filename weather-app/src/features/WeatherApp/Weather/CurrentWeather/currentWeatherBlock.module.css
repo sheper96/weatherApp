@@ -1,0 +1,33 @@
+.container {
+    
+  }
+ 
+.weatherBlock{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  
+.weatherInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+  }
+  
+.weatherInfoItem {
+    margin-bottom: 10px;  
+  }
+  
+.weatherInfoItem p {
+    margin: 5px 0;
+   
+  }
+
+.weatherIcon img{
+  position: relative;
+    width: 200px;
+    height: 200px;
+  }
