@@ -4,7 +4,7 @@ import { getWeatherImage } from '../../../../utils/weatherImage';
 import { formatDate } from '../../../../utils/date-util';
 
 
-function DailyWeather({ min, max, date, weatherCode}) {
+const DailyWeather=({ min, max, date, weatherCode}) =>{
  
 
   const weatherImage = getWeatherImage(weatherCode);

@@ -1,13 +1,11 @@
 import React from 'react';
 import s from './currentWeatherBlock.module.css'
 import { getWeatherImage } from '../../../../utils/weatherImage';
-import { formatDate } from '../../../../utils/date-util';
 
 
 
-function CurrentWeatherBlock({ time, temperature, windSpeed, currentWeatherData, location,isDay }) {
+const CurrentWeatherBlock = ({ time, temperature, windSpeed, currentWeatherData, location,isDay,humidity })=> {
 
-  const formattedDate = formatDate(time)
   const weatherImage = getWeatherImage(currentWeatherData.weather_code,isDay);
 
   return (
@@ -16,8 +14,8 @@ function CurrentWeatherBlock({ time, temperature, windSpeed, currentWeatherData,
       <div className={s.weatherBlock}>
         <div className={s.weatherInfo}>
           <div className={s.weatherInfoItem}>
-            {/* <h3>Date:</h3>
-            <p>{formattedDate}</p> */}
+            <h3>Humidity:</h3>
+            <p>{humidity} %</p>
           </div>
           <div className={s.weatherInfoItem}>
             <h3>Temperature:</h3>

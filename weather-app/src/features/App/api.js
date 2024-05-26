@@ -19,6 +19,6 @@ export const locationAPI = {
 
 export const weatherAPI = {
     getWeatherData(latitude, longitude) {
-        return instance2.get(`forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,is_day,wind_speed_10m,weather_code&daily=weather_code,temperature_2m_min,temperature_2m_max`)
+        return instance2.get(`forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,is_day,wind_speed_10m,weather_code,relative_humidity_2m,apparent_temperature&daily=weather_code,temperature_2m_min,temperature_2m_max`)
     }
 }

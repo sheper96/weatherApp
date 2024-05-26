@@ -24,22 +24,29 @@ let initialState = {
         current: {
             time: '',
             interval: 0,
+            is_day: 0,
+            relative_humidity_2m : 0,
             temperature_2m: 0,
             wind_speed_10m: 0,
             weather_code: 0,
-            is_day: ''
+            
         },
         currentUnits: {
             time: 'iso8601',
             interval: 'seconds',
             temperature_2m: '°C',
-            wind_speed_10m: 'km/h'
+            wind_speed_10m: 'km/h',
+            is_day:"",
+            relative_humidity_2m: "%",
+            temperature_2m:"°C",
+            weather_code: "wmo code",
+            wind_speed_10m:"km/h",
         },
         daily: {
             time: '',
             weather_code: 0,
             temperature_2m_min: '',
-            temperature_2m_max: ''
+            temperature_2m_max: '',
         },
         daily_units: {
             temperature_2m_max: "°C",
@@ -49,7 +56,6 @@ let initialState = {
         },
         elevation: 0,
         generationTimeMs: 0,
-
         latitude: 0,
         longitude: 0,
         timezone: 'GMT',

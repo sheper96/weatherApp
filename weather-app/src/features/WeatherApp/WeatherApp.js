@@ -24,7 +24,8 @@ function WeatherApp() {
         windSpeed={currentWeatherData.wind_speed_10m}
         currentWeatherData={currentWeatherData}
         location={locationData} 
-        isDay = {currentWeatherData.is_day}/>}
+        isDay = {currentWeatherData.is_day}
+        humidity = {currentWeatherData.relative_humidity_2m}/>}
       <div className={s.dailyWeatherBlock}>
         {dailyWeatherData.time && dailyWeatherData.time.map((date, i) => (
           <div key={i} >
