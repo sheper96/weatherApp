@@ -10,6 +10,7 @@ function DailyWeather({ min, max, date, weatherCode}) {
   const weatherImage = getWeatherImage(weatherCode);
 
   const formattedDate = formatDate(date)
+  console.log(date)
 
   return (
     <div className={s.DailyWeather}>

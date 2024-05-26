@@ -16,8 +16,8 @@ function CurrentWeatherBlock({ time, temperature, windSpeed, currentWeatherData,
       <div className={s.weatherBlock}>
         <div className={s.weatherInfo}>
           <div className={s.weatherInfoItem}>
-            <h3>Date:</h3>
-            <p>{formattedDate}</p>
+            {/* <h3>Date:</h3>
+            <p>{formattedDate}</p> */}
           </div>
           <div className={s.weatherInfoItem}>
             <h3>Temperature:</h3>

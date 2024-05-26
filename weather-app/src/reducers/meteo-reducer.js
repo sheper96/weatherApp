@@ -66,11 +66,9 @@ export const meteoReducer = (state = initialState, action) => {
 
 
     switch (action.type) {
-        case "HEADER/SET-CITY":
-            return { ...state, cityName: action.cityName }
-        case "HEADER/SET-LOCATION-DATA":
+        case "METEO/SET-LOCATION-DATA":
             return { ...state, locationData: action.locationData }
-        case "HEADER/SET-WEATHER-DATA":
+        case "METEO/SET-WEATHER-DATA":
             return { ...state, weatherData: action.weatherData }
         default: return state
     }
@@ -79,19 +77,14 @@ export const meteoReducer = (state = initialState, action) => {
 
 //ac
 
-export const setLocation = (cityName) => {
-
-    return { type: "HEADER/SET-CITY", cityName: cityName }
-}
-
 export const setLocationData = (locationData) => {
 
-    return { type: "HEADER/SET-LOCATION-DATA", locationData: locationData }
+    return { type: "METEO/SET-LOCATION-DATA", locationData: locationData }
 }
 
 export const setWeatherData = (weatherData) => {
 
-    return { type: "HEADER/SET-WEATHER-DATA", weatherData: weatherData }
+    return { type: "METEO/SET-WEATHER-DATA", weatherData: weatherData }
 }
 
 
