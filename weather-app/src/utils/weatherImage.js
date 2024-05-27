@@ -20,30 +20,30 @@ import thunder from './../assets/weather-icons/thunder.svg';
 
 
 export const weatherImages = {
-    day,
-    night,
-    cloudy,
-    partlyCloudy,
-    rainy1,
-    rainy2,
-    rainy3,
-    rainy4,
-    rainy5,
-    rainy6,
-    rainy7,
-    snow1,
-    snow2,
-    snow3,
-    snow4,
-    snow5,
-    snow6,
-    thunder
-  };
-  
-  export function getWeatherImage(code,isDay = 1) {
+  day,
+  night,
+  cloudy,
+  partlyCloudy,
+  rainy1,
+  rainy2,
+  rainy3,
+  rainy4,
+  rainy5,
+  rainy6,
+  rainy7,
+  snow1,
+  snow2,
+  snow3,
+  snow4,
+  snow5,
+  snow6,
+  thunder
+};
 
-    if (isDay === 1){
-      
+export function getWeatherImage(code, isDay = 1) {
+
+  if (isDay === 1) {
+
     if (code === 0) return weatherImages.day;
     if ([1, 2, 3].includes(code)) return weatherImages.partlyCloudy;
     if ([45, 48].includes(code)) return weatherImages.cloudy;
@@ -55,9 +55,9 @@ export const weatherImages = {
     if (code === 77) return weatherImages.snow2;
     if ([80, 81, 82].includes(code)) return weatherImages.rainy5;
     if ([85, 86].includes(code)) return weatherImages.snow3;
-    if ([95,96, 99].includes(code)) return weatherImages.thunder;
-  
-   }
-   else if (isDay === 0) return weatherImages.night
-    return ;
+    if ([95, 96, 99].includes(code)) return weatherImages.thunder;
+
   }
+  else if (isDay === 0) return weatherImages.night
+  return;
+}

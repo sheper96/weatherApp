@@ -1,17 +1,17 @@
 const initialState = {
-    status: 'idle', 
+    status: 'idle',
 }
 
 
 export const appReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'APP/SET-STATUS':
-            return {...state, status: action.status}
+            return { ...state, status: action.status }
         default:
-            return {...state}
+            return { ...state }
     }
 }
 
-export const setAppStatusAC = (status) => ({type: 'APP/SET-STATUS', status})
+export const setAppStatusAC = (status) => ({ type: 'APP/SET-STATUS', status })
 
 

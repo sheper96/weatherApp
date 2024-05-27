@@ -5,7 +5,7 @@ import { appReducer } from "./app-reducer";
 
 const rootReducer = combineReducers({
   meteoData: meteoReducer,
-  app : appReducer
+  app: appReducer
 })
 
 export const store = createStore(rootReducer, applyMiddleware(thunk))
