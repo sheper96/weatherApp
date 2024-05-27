@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sheper96/weatherApp/static/css/main.8456311f.css",
+    "main.js": "/sheper96/weatherApp/static/js/main.22c8aac7.js",
+    "static/js/453.0ccb7fb4.chunk.js": "/sheper96/weatherApp/static/js/453.0ccb7fb4.chunk.js",
+    "static/media/snowy-1.svg": "/sheper96/weatherApp/static/media/snowy-1.336b153420f179bf55caf6001010ca21.svg",
+    "static/media/snowy-3.svg": "/sheper96/weatherApp/static/media/snowy-3.bf2e5fe9e7e02ed7812cae4ebb02bce2.svg",
+    "static/media/snowy-2.svg": "/sheper96/weatherApp/static/media/snowy-2.cdbed78a427b86ddcf1b175b7cc94e27.svg",
+    "static/media/rainy-1.svg": "/sheper96/weatherApp/static/media/rainy-1.f0a18c18bae7dd93dc868bcdb4b371c4.svg",
+    "static/media/rainy-3.svg": "/sheper96/weatherApp/static/media/rainy-3.796779e24e3685de4e08a41a77a13ef5.svg",
+    "static/media/snowy-6.svg": "/sheper96/weatherApp/static/media/snowy-6.abf211998f21d5289adb043ca67087ad.svg",
+    "static/media/rainy-2.svg": "/sheper96/weatherApp/static/media/rainy-2.d017a1560132d73121353854dd700a64.svg",
+    "static/media/preloader.svg": "/sheper96/weatherApp/static/media/preloader.5e6f109ecfa9206e89964101e08d7a53.svg",
+    "static/media/cloudy-day-1.svg": "/sheper96/weatherApp/static/media/cloudy-day-1.b2e53053280396bfaa22d1c8501e3541.svg",
+    "static/media/snowy-5.svg": "/sheper96/weatherApp/static/media/snowy-5.280aaba530372c1a192d45f7c6e40429.svg",
+    "static/media/day.svg": "/sheper96/weatherApp/static/media/day.212e04206236caeb33f88e1c9dc942ad.svg",
+    "static/media/snowy-4.svg": "/sheper96/weatherApp/static/media/snowy-4.738840804fea4bf9167415b59173c70b.svg",
+    "static/media/thunder.svg": "/sheper96/weatherApp/static/media/thunder.58220cf8d60aac3af8af8d076cf52c1b.svg",
+    "static/media/rainy-7.svg": "/sheper96/weatherApp/static/media/rainy-7.3ed3063ff5ebdb69753c4d7c165ede0b.svg",
+    "static/media/rainy-6.svg": "/sheper96/weatherApp/static/media/rainy-6.cd7c6f534c492c7101a55c23911cfa07.svg",
+    "static/media/cloudy.svg": "/sheper96/weatherApp/static/media/cloudy.22e97e837933a900837fe9c3eb090439.svg",
+    "static/media/rainy-5.svg": "/sheper96/weatherApp/static/media/rainy-5.80388c1e00b466da06136c0074b82fc5.svg",
+    "static/media/night.svg": "/sheper96/weatherApp/static/media/night.6a2ab5e9476789c627efd8f2f051442b.svg",
+    "static/media/rainy-4.svg": "/sheper96/weatherApp/static/media/rainy-4.4a3f03de6a2d0d5402199c70a13441f7.svg",
+    "index.html": "/sheper96/weatherApp/index.html",
+    "main.8456311f.css.map": "/sheper96/weatherApp/static/css/main.8456311f.css.map",
+    "main.22c8aac7.js.map": "/sheper96/weatherApp/static/js/main.22c8aac7.js.map",
+    "453.0ccb7fb4.chunk.js.map": "/sheper96/weatherApp/static/js/453.0ccb7fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8456311f.css",
+    "static/js/main.22c8aac7.js"
+  ]
+}
