@@ -1,11 +1,13 @@
+import React from 'react';
 import { useSelector } from 'react-redux';
 import CurrentWeatherBlock from './Weather/CurrentWeather/CurrentWeatherBlock';
 import DailyWeather from './Weather/DailyWeather/DailyWeather';
-import Search2 from '../Search/Search';
+import Search from '../Search/Search';
 import s from './mainPage.module.css'
 import Preloader from '../../common/Preloader/Preloader';
 
-function WeatherApp() {
+
+const WeatherApp = () => {
   const currentWeatherData = useSelector(state => state.meteoData.weatherData.current);
   const dailyWeatherData = useSelector(state => state.meteoData.weatherData.daily)
   const status = useSelector(state => state.app.status)
@@ -15,9 +17,9 @@ function WeatherApp() {
       <div className={s.appName}>
         <h2>Weather App</h2>
       </div>
-      <Search2 />
+      <Search />
       {status === "loading" ? <Preloader /> : (<div>
-        {currentWeatherData.time !== "" && <CurrentWeatherBlock/>}
+        {currentWeatherData.time !== "" && <CurrentWeatherBlock />}
         <div className={s.dailyWeatherBlock}>
           {dailyWeatherData.time && dailyWeatherData.time.map((date, i) => (
             <div key={i} >

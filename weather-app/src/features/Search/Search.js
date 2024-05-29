@@ -8,7 +8,6 @@ import { setWeatherDataTC, setLocationDataTC } from '../../reducers/meteo-reduce
 
 const Search2 = () => {
 
-
   const weatherRequest = (lat, lon) => {
     dispatch(setWeatherDataTC(lat, lon))
   }

@@ -12,7 +12,7 @@ export function formatDate(dateData) {
   };
 
   if (date.toLocaleDateString('en-US', options) == today.toLocaleDateString('en-US', options)) {
-    return `Today    ${date.toLocaleDateString('en-US', options)}`
+    return 'Today'
   }
   return date.toLocaleDateString('en-US', options);
 }
