@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weatherApp/static/css/main.8456311f.css",
-    "main.js": "/weatherApp/static/js/main.36a33d69.js",
+    "main.css": "/weatherApp/static/css/main.be3d3df7.css",
+    "main.js": "/weatherApp/static/js/main.67357828.js",
     "static/js/453.0ccb7fb4.chunk.js": "/weatherApp/static/js/453.0ccb7fb4.chunk.js",
     "static/media/snowy-1.svg": "/weatherApp/static/media/snowy-1.336b153420f179bf55caf6001010ca21.svg",
     "static/media/snowy-3.svg": "/weatherApp/static/media/snowy-3.bf2e5fe9e7e02ed7812cae4ebb02bce2.svg",
@@ -14,6 +14,9 @@
     "static/media/cloudy-day-1.svg": "/weatherApp/static/media/cloudy-day-1.b2e53053280396bfaa22d1c8501e3541.svg",
     "static/media/snowy-5.svg": "/weatherApp/static/media/snowy-5.280aaba530372c1a192d45f7c6e40429.svg",
     "static/media/day.svg": "/weatherApp/static/media/day.212e04206236caeb33f88e1c9dc942ad.svg",
+    "static/media/cloudy-night-3.svg": "/weatherApp/static/media/cloudy-night-3.3cf5ca070bb5693d4b46bf1807d30b8d.svg",
+    "static/media/cloudy-night-1.svg": "/weatherApp/static/media/cloudy-night-1.c1e04afcaa0ed21a1f2bac4a128cf302.svg",
+    "static/media/cloudy-night-2.svg": "/weatherApp/static/media/cloudy-night-2.77848a92857cfb470d524565cbd2f283.svg",
     "static/media/snowy-4.svg": "/weatherApp/static/media/snowy-4.738840804fea4bf9167415b59173c70b.svg",
     "static/media/thunder.svg": "/weatherApp/static/media/thunder.58220cf8d60aac3af8af8d076cf52c1b.svg",
     "static/media/rainy-7.svg": "/weatherApp/static/media/rainy-7.3ed3063ff5ebdb69753c4d7c165ede0b.svg",
@@ -23,12 +26,12 @@
     "static/media/night.svg": "/weatherApp/static/media/night.6a2ab5e9476789c627efd8f2f051442b.svg",
     "static/media/rainy-4.svg": "/weatherApp/static/media/rainy-4.4a3f03de6a2d0d5402199c70a13441f7.svg",
     "index.html": "/weatherApp/index.html",
-    "main.8456311f.css.map": "/weatherApp/static/css/main.8456311f.css.map",
-    "main.36a33d69.js.map": "/weatherApp/static/js/main.36a33d69.js.map",
+    "main.be3d3df7.css.map": "/weatherApp/static/css/main.be3d3df7.css.map",
+    "main.67357828.js.map": "/weatherApp/static/js/main.67357828.js.map",
     "453.0ccb7fb4.chunk.js.map": "/weatherApp/static/js/453.0ccb7fb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8456311f.css",
-    "static/js/main.36a33d69.js"
+    "static/css/main.be3d3df7.css",
+    "static/js/main.67357828.js"
   ]
 }
