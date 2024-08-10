@@ -1,17 +1,19 @@
-.DailyWeather {}
+.DailyWeather {
+  width: 25vh;
+  height: 18vh;
+}
 
 .date {
   font-weight: bold;
   margin-bottom: 5px;
+  height: 5vh;
+  width: 90%;
 }
 
 .temperature {
   margin-bottom: 5px;
 }
 
-.label {
-  margin-right: 5px;
-}
 
 .weatherCode {
   font-style: italic;

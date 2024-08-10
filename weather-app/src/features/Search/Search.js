@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { setWeatherDataTC, setLocationDataTC } from '../../reducers/meteo-reducer';
 
 
-const Search2 = () => {
+const Search = () => {
 
   const weatherRequest = (lat, lon) => {
     dispatch(setWeatherDataTC(lat, lon))
@@ -156,4 +156,4 @@ const Search2 = () => {
   )
 }
 
-export default Search2;
+export default Search;
