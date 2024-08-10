@@ -4,7 +4,7 @@ This is a simple Weather App built with React. It provides current weather infor
 
 ## Features
 
-- Display current weather conditions including temperature, wind speed, and weather icon.
+- Display current weather conditions including temperature, wind speed, humidity and weather icon.
 - Show a 7-day weather forecast with daily minimum and maximum temperatures.
 - Dynamic weather icons based on weather conditions.
 - Search for weather information by city name.
@@ -12,7 +12,7 @@ This is a simple Weather App built with React. It provides current weather infor
 ## Installation
 
 1. Clone the repository:
-    git clone https://github.com/your-username/weather-app.git
+    git clone https://github.com/sheper96/weatherApp.git
    
 2. Navigate into the project directory:
     cd weather-app
@@ -28,6 +28,8 @@ This is a simple Weather App built with React. It provides current weather infor
 2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
 3. Enter a city name in the search bar to view weather information for that city.
+   
+4. Project is also deployed on git-hub pages https://sheper96.github.io/weatherApp/
 
 ## Technologies Used
 
